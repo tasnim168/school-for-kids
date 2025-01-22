@@ -574,13 +574,17 @@ li>a{
 .footer{
     display: block;
     gap: 10px;
-    width: 400px;
+    width: 390px;
     height: 700px;
+    padding-left: 10px;
+    /* margin-left: 10px; */
     /* text-align: center; */
 }
 .story{
     background-image: url('../assets/bg.png'),linear-gradient(to top, rgba(254, 163, 1, 1) 30%, white);
     width: 400px;
 }
-
+.contact{
+    margin-top: 70px;
+}
 }
