@@ -140,20 +140,6 @@ body{
     font-size: 30px;
     color:orange;
 }
-/* for small device */
-@media screen and(max-width:576px) {
-    .logo-head{
-        /* display: none; */
-        visibility: hidden;
-    }
-    .links>ul{
-        display: none;
-    }
-    .btn{
-        display: none;
-    }
-}
-/* for small device */
 /* curriculum part design */
 .curriculum{
     margin-top: 2rem;
@@ -497,5 +483,11 @@ li>a{
     font-style: bold;  
     font-size: 1.25rem;
     margin-top: -40px;
-
+}
+/* for small device */
+/* for small device */
+@media screen and(max-width:576px) {
+    .nav-container{
+        display: none;
+    }
 }
