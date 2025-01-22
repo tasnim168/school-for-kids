@@ -488,7 +488,11 @@ li>a{
 /* for small device */
 @media screen and (max-width:576px) {
     body{
+        max-width: 400px;
         height: 2000px;
+    }
+    .nav-container{
+        width: 400px;
     }
     .links, .btn1{
         display: none;
@@ -511,15 +515,23 @@ li>a{
         text-align: center;
     }
     .img2{
-        width: 100%;
-        /* width: 300px;
-        height: 100px; */
+        width: 200px;
     }
     .marque{
         display: none;
     }
+    .curriculum{
+        background-image: none;
+        width: 400px;
+    }
     .curriculum-title{
-        text-align: left;
+        text-align: center;
+    }
+    .story-card{
+        width: 400px;
+    }
+    .footer{
+        width: 400px;
     }
 .curriculum-card{
     display: block;
@@ -536,23 +548,33 @@ li>a{
     display: none;
 }
 .sub-card{
-    width: 173px;
+    width: 190px;
     height: 200px;
 }
 .sub-image{
-    width: 173px;
+    /* gap: 2px; */
+    width: 190px;
     height: 100px;
 }
-.btn-s{
-    /* width: 30px; */
-    height: 5px;
+/* .btn7{
+    margin: 10px 20px;
+ height: 15px;
+ width: 90px;
 }
+.btn-s{
+
+} */
+
 .footer{
     display: block;
     gap: 10px;
     width: 400px;
     height: 700px;
     /* text-align: center; */
+}
+.story{
+    background-image: url('../assets/bg.png'),linear-gradient(to top, rgba(254, 163, 1, 1) 30%, white);
+    width: 400px;
 }
 
 }
