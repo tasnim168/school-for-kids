@@ -486,8 +486,46 @@ li>a{
 }
 /* for small device */
 /* for small device */
-@media screen and(max-width:576px) {
-    .nav-container{
+@media screen and (max-width:576px) {
+    .links, .btn1{
         display: none;
     }
+    .logo-heading{
+        display: none;
+    }
+    .menubar{
+        display: flex;
+    }
+    .head{
+        /* display: grid; */
+        flex-direction: column-reverse;
+        /* gap: 50px; */
+        /* text-align: center */
+        width:400px ;
+        height: 2000px;
+    }
+    .head1{
+        text-align: center;
+    }
+    .img2{
+        width: 100%;
+        /* width: 300px;
+        height: 100px; */
+    }
+    .marque{
+        display: none;
+    }
+    .curriculum-title{
+        /* text-align: center; */
+    }
+.curriculum-card{
+    display: block;
+    gap: 5px;
+    width: 357px;
+    /* height: 321px; */
+    /* display: grid; */
+    /* flex-direction: column; */
+}
+
+
 }
