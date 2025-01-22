@@ -487,6 +487,9 @@ li>a{
 /* for small device */
 /* for small device */
 @media screen and (max-width:576px) {
+    body{
+        height: 2000px;
+    }
     .links, .btn1{
         display: none;
     }
@@ -502,7 +505,7 @@ li>a{
         /* gap: 50px; */
         /* text-align: center */
         width:400px ;
-        height: 2000px;
+        height: 1200px;
     }
     .head1{
         text-align: center;
@@ -516,7 +519,7 @@ li>a{
         display: none;
     }
     .curriculum-title{
-        /* text-align: center; */
+        text-align: left;
     }
 .curriculum-card{
     display: block;
@@ -526,6 +529,30 @@ li>a{
     /* display: grid; */
     /* flex-direction: column; */
 }
-
+.case{
+    display: none;
+}
+.main-card{
+    display: none;
+}
+.sub-card{
+    width: 173px;
+    height: 200px;
+}
+.sub-image{
+    width: 173px;
+    height: 100px;
+}
+.btn-s{
+    /* width: 30px; */
+    height: 5px;
+}
+.footer{
+    display: block;
+    gap: 10px;
+    width: 400px;
+    height: 700px;
+    /* text-align: center; */
+}
 
 }
